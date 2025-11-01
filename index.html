@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EvoActiv - Evolutionary Activation Function Discovery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "d3-shape": "https://aistudiocdn.com/d3-shape@^3.2.0"
+  }
+}
+</script>
+  <style>
+    @keyframes aurora {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .aurora-background {
+      background: radial-gradient(ellipse at top, #1e3a8a, transparent),
+                  radial-gradient(ellipse at bottom, #3b0764, transparent);
+      background-color: #0f172a; /* Slate 900 */
+      background-size: 200% 200%;
+      animation: aurora 15s ease infinite;
+    }
+  </style>
+</head>
+  <body class="aurora-background text-gray-200">
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

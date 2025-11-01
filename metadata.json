@@ -1,0 +1,5 @@
+{
+  "name": "EvoActiv - Evolutionary Activation Function Discovery",
+  "description": "An interactive web-based framework to simulate and visualize the discovery of neural network activation functions using evolutionary algorithms. Explore how new mathematical expressions are generated, tested, and evolved to improve model accuracy.",
+  "requestFramePermissions": []
+}
